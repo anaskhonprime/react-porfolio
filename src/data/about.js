@@ -69,4 +69,23 @@ const githubInfo = [
   { name: "Issues", value: "1", mark: "C" },
 ];
 
-export { aboutInfo, skillInfo, skillBar, techImages, githubInfo };
+
+const personality = [
+  {
+    name: "Quick Learning",
+    content:
+      "Best software developers are often fantastic self-learners.The ideal skill any person can have is understanding how to learn, and ideal developers have acquired the skill of self-learning.",
+  },
+  {
+    name: "Problem Solving",
+    content:
+      "Problem-solving is a one of the most important part of the work. Problem-solving also has to do with utilizing creativity and logical thought processes to identify problems and resolve them with software.",
+  },
+  {
+    name: "Honesty",
+    content:
+      "Software developers need to learn to admit their mistakes. Of course, making a mistake occurs to all of us. The most important thing to do is to make an effort to learn from them and try to avoid them later in life.",
+  },
+];
+
+export { aboutInfo, skillInfo, skillBar, techImages, githubInfo, personality };

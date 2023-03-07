@@ -1,12 +1,14 @@
 .screen-1 {
     color: #fff;
     padding: 2% 10%;
+    margin-bottom: 100px;
 }
 
 .screen-2 {
     color: #fff;
     padding: 5%;
-    margin-top: 50px;
+    margin-bottom: 100px;
+    margin: 50px;
 }
 
 .screen-3 {
@@ -82,15 +84,30 @@
     margin: 10px 25px;
     color: #000;
     opacity: 70%;
+    font-size: 26px;
+}
+
+.header-center {
+    text-align: center;
+    margin: 5% 0;
 }
 
 .pause {
     width: 100px;
     height: 2px;
-    margin: 10px 25px 24px;
+    margin: 10px 25px 33px;
     border-radius: 10px;
     opacity: 80%;
     background-color: rgb(226, 43, 171);
+}
+
+.pause-white {
+    width: 20%;
+    height: 2px;
+    margin: 20px auto;
+    border-radius: 10px;
+    opacity: 80%;
+    background-color: #fff;
 }
 
 .hr-style {
@@ -110,12 +127,25 @@
     min-height: 520px;
 }
 
+.personality-container {
+    background-color: #92858551;
+    margin: 10px 20px;
+    min-height: 320px;
+    padding: 3% 5%;
+    border-radius: 20px;
+    border: 1px solid #d4b3b3;
+}
+
 .skill-img {
     width: 100%;
     height: 250px;
     object-fit: cover;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+}
+
+.tech-margin {
+    margin-top: 70px;
 }
 
 .skill-intro {
@@ -131,6 +161,15 @@
 }
 
 .programming {
+    background-color: #f4f4f4;
+    width: 95%;
+    color: #000;
+    padding: 2% 3%;
+    margin: 15px 0;
+    height: 100%;
+}
+
+.programming-2 {
     background-color: #f4f4f4;
     width: 95%;
     color: #000;
@@ -180,7 +219,6 @@
 }
 
 .tech-container {
-    position: relative;
     display: inline;
 }
 
@@ -201,13 +239,38 @@
 }
 
 .github-items {
+    display: inline-block;
+    text-align: center;
     width: 100px;
+    line-height: 1;
     text-align: center;
     height: 100px;
-    margin: 5px;
+    margin: 5 px;
     background-color: #e7e3e3;
     padding: 5px;
     border-radius: 20px;
     object-fit: cover;
     box-shadow: rgba(163, 177, 192, 0.2) 0px 8px 24px;
+}
+
+.github-header {
+    font-size: 16px;
+    margin: 8px 0;
+    font-weight: 600;
+    color: rgb(97, 25, 86);
+}
+
+.github-mark {
+    width: 30%;
+    margin: 5px auto;
+    width: 50px;
+    font-size: 28px;
+    height: 50px;
+    color: rgb(97, 25, 86);
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+.screen-margin {
+    margin-top: 150px;
 }

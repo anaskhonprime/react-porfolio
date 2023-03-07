@@ -7,22 +7,19 @@ import {
   skillBar,
   techImages,
   githubInfo,
+  personality,
 } from "../data/about";
+
 import "../style/about.css";
 
-import { me, skills, front, react, github } from "../assets/assets";
+import { me, skills, front, react } from "../assets/assets";
 
 function About() {
   return (
     <div className="about-body">
-      {/* Navbar Component */}
-
       <div className="navbar-items">
         <Navbar />
       </div>
-
-      {/* About Screen 1 */}
-
       <div className="row screen-1">
         <div className="col-lg-7 about-text">
           <div className="about-header-text">
@@ -40,6 +37,10 @@ function About() {
       </div>
 
       <div className="row screen-2">
+        <div className="header-center">
+          <h1>Education History & Experience</h1>
+          <div className="pause-white"></div>
+        </div>
         <div className="col-lg-4">
           <div className="skill-container">
             <img className="skill-img" src={skills} alt="skill" />
@@ -62,8 +63,11 @@ function About() {
           </div>
         </div>
       </div>
-
-      <div className="row screen-3">
+      <div className="row screen-2">
+        <div className="header-center">
+          <h1>Skills & GitHub Activity</h1>
+          <div className="pause-white"></div>
+        </div>
         <div className="col-lg-6">
           <div className="programming">
             <div className="skills-cont">
@@ -96,20 +100,16 @@ function About() {
                 {githubInfo.map((key, a) => (
                   <div key={a} className="tech-container">
                     <div className="github-items">
-                      <p>{githubInfo[a].name}</p>
-                      <p>{githubInfo[a].mark}</p>
-                      <p>{githubInfo[a].value}</p>
+                      <div className="github-header">{githubInfo[a].name}</div>
+                      <div className="github-mark">{githubInfo[a].value}</div>
                     </div>
                   </div>
                 ))}
               </div>
             </div>
-          </div>
-
-          <div className="programming">
-            <h2 className="skill-header">Tech Stack & Tools</h2>
+            <h2 className="skill-header tech-margin">Tech Stack & Tools</h2>
             <div className="pause"></div>
-            <p className="github-info">
+            <div className="github-info">
               <div>
                 {techImages.map((key, a) => (
                   <div key={a} className="tech-container">
@@ -121,9 +121,23 @@ function About() {
                   </div>
                 ))}
               </div>
-            </p>
+            </div>
           </div>
         </div>
+      </div>
+      <div className="row screen-3">
+        <div className="header-center">
+          <h1>Personality as Developer</h1>
+          <div className="pause-white"></div>
+        </div>
+        {personality.map((key, a) => (
+          <div className="col-lg-4">
+            <div key={a} className="personality-container">
+              <h4 className="skill-intro">{personality[a].name}</h4>
+              <p className="skill-content">{personality[a].content}</p>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
