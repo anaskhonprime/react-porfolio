@@ -6,9 +6,9 @@ import skills from "./skills.jpg";
 
 import front from "./front.jpg";
 import react from "./react.jpg";
+import github from "./github.JPG";
 
 
 
 
-
-export { logoImg, headerImg, me, skills, front, react };
+export { logoImg, headerImg, me, skills, front, react, github };

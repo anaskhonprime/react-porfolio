@@ -1,10 +1,16 @@
 import React from "react";
 import Navbar from "../views/Navbar";
 
-import { aboutInfo, skillInfo } from "../data/about";
+import {
+  aboutInfo,
+  skillInfo,
+  skillBar,
+  techImages,
+  githubInfo,
+} from "../data/about";
 import "../style/about.css";
 
-import { me, skills, front, react } from "../assets/assets";
+import { me, skills, front, react, github } from "../assets/assets";
 
 function About() {
   return (
@@ -59,11 +65,64 @@ function About() {
 
       <div className="row screen-3">
         <div className="col-lg-6">
-          <div className="programming"></div>
+          <div className="programming">
+            <div className="skills-cont">
+              <h2 className="skill-header">My Skills</h2>
+              <div className="pause"></div>
+              {skillBar.map((key, a) => (
+                <div key={a} className="barContainer">
+                  <div
+                    className="fillerStyle"
+                    style={{
+                      width: `${skillBar[a].value}`,
+                      backgroundColor: `${skillBar[a].color}`,
+                    }}>
+                    <p className="labelName">
+                      {skillBar[a].name}
+                      <span className="labelStyle"></span>
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
-
         <div className="col-lg-6">
-          <div className="programming"></div>
+          <div className="programming">
+            <h2 className="skill-header">GitHub Activity</h2>
+            <div className="pause"></div>
+            <div className="github-info">
+              <div>
+                {githubInfo.map((key, a) => (
+                  <div key={a} className="tech-container">
+                    <div className="github-items">
+                      <p>{githubInfo[a].name}</p>
+                      <p>{githubInfo[a].mark}</p>
+                      <p>{githubInfo[a].value}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="programming">
+            <h2 className="skill-header">Tech Stack & Tools</h2>
+            <div className="pause"></div>
+            <p className="github-info">
+              <div>
+                {techImages.map((key, a) => (
+                  <div key={a} className="tech-container">
+                    <img
+                      className="tech-img"
+                      src={techImages[a].url}
+                      alt={techImages[a].name}
+                    />
+                  </div>
+                ))}
+              </div>
+            </p>
+          </div>
         </div>
       </div>
     </div>
