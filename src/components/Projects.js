@@ -1,10 +1,34 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "../views/Navbar";
+import { Link } from "react-router-dom";
 
 import "../style/projects.css";
-import { projects } from "../data/projects";
+import { projects, filterButtons } from "../data/projects";
 
 function Projects() {
+  
+  const [myProjects, setMyProjects] = useState(null);
+  
+  useEffect(() => {
+    setMyProjects(getProjects());
+  }, []);
+   
+  function getProjects() {
+    const pList = projects;
+    return pList;
+  }
+
+  function filterProjects(pType) {
+    let filtredProject = getProjects().filter(type => type.category === pType);
+    return filtredProject;
+  }
+
+  function handleFilter(e) {
+    let typePro = e.target.value;
+    typePro !== "all"
+      ? setMyProjects(filterProjects(typePro))
+      : setMyProjects(getProjects());
+  }
 
   
 
@@ -19,26 +43,69 @@ function Projects() {
         </div>
         <div className="col-lg-6">
           <div className="filter-container">
-            <button className="filter-buttons">All</button>
-            <button className="filter-buttons">VueJs</button>
-            <button className="filter-buttons">ReactJs</button>
-            <button className="filter-buttons">Blockchain</button>
+            {filterButtons &&
+              filterButtons.map((type, index) => (
+                <>
+                  <button
+                    className="filter-buttons"
+                    key={index}
+                    value={type.value}
+                    onClick={handleFilter}>
+                    {type.name}
+                  </button>
+                </>
+              ))}
           </div>
         </div>
       </div>
 
       <div className="row screen-2">
-        {projects.map((key, a) => (
-          <div key={a} className="col-lg-4">
-            <div className="projects">
-              <img className="projects-img" src={projects[a].image} alt="" />
-              <div className="project-content">
-                <h3>{projects[a].name}</h3>
-                <p>{projects[a].content}</p>
+        {myProjects &&
+          myProjects.map(type => (
+            <div key={type.id} className="col-lg-4">
+              <div className="projects">
+                <img className="projects-img" src={type.image} alt="" />
+                <div className="project-content">
+                  <h3>{type.name}</h3>
+                  <p>{type.content}</p>
+                </div>
+              </div>
+              <div className="link-items">
+                <Link className="no-deco" to={type.live}>
+                  <h3>Live</h3>
+                  <svg
+                    className="svg-items"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
+                  </svg>
+                </Link>
+                <Link className="no-deco" to={type.code}>
+                  <h3>Code</h3>
+                  <svg
+                    className="svg-items"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
+                  </svg>
+                </Link>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
       </div>
     </div>
   );
