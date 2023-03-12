@@ -5,6 +5,7 @@ import Navbar from "../views/Navbar";
 import "../style/home.css";
 import { headerImg } from "../assets/assets";
 import { headerText } from "../data/home";
+import { MainButton, BlogsButton } from "./Svg/MainButton";
 
 function Home() {
   return (
@@ -17,11 +18,11 @@ function Home() {
           <h1>{headerText.header}</h1>
           <p>{headerText.intro}</p>
           <div className="header-buttons">
-            <Link to="/projects">
-              <button>Projects</button>
+            <Link className="inline-items" to="/projects">
+              <MainButton />
             </Link>
-            <Link to="/blogs">
-              <button>Blogs</button>
+            <Link className="inline-items" to="/blogs">
+              <BlogsButton />
             </Link>
           </div>
         </div>

@@ -32,7 +32,7 @@
 
 .about-skills-text h1 {
     margin: 30px 0;
-    background-color: rgba(237, 177, 237, 0.359);
+    background-color: #edb1ed5c;
     color: #fff;
     width: 50%;
     padding: 20px 40px;
@@ -122,9 +122,17 @@
 }
 
 .skill-container {
-    background-color: #92858551;
-    margin: 10px 20px;
+    background-color: #9841fc22;
     min-height: 520px;
+    border-radius: 20px;
+}
+
+.card-design {
+    padding: 5px;
+    margin: 10px 25px;
+    border-radius: 20px;
+    box-shadow: #9841fc22 0 15px 30px -5px;
+    background-image: linear-gradient(144deg, #8940ff, #bf40ff77 50%);
 }
 
 .personality-container {
@@ -140,8 +148,8 @@
     width: 100%;
     height: 250px;
     object-fit: cover;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .tech-margin {

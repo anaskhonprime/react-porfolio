@@ -42,24 +42,30 @@ function About() {
           <div className="pause-white"></div>
         </div>
         <div className="col-lg-4">
-          <div className="skill-container">
-            <img className="skill-img" src={skills} alt="skill" />
-            <h4 className="skill-intro">{skillInfo.header1}</h4>
-            <p className="skill-content">{skillInfo.intro1}</p>
+          <div className="card-design">
+            <div className="skill-container">
+              <img className="skill-img" src={skills} alt="skill" />
+              <h4 className="skill-intro">{skillInfo.header1}</h4>
+              <p className="skill-content">{skillInfo.intro1}</p>
+            </div>
           </div>
         </div>
         <div className="col-lg-4">
-          <div className="skill-container">
-            <img className="skill-img" src={react} alt="skill" />
-            <h4 className="skill-intro">{skillInfo.header2}</h4>
-            <p className="skill-content">{skillInfo.intro2}</p>
+          <div className="card-design">
+            <div className="skill-container">
+              <img className="skill-img" src={react} alt="skill" />
+              <h4 className="skill-intro">{skillInfo.header2}</h4>
+              <p className="skill-content">{skillInfo.intro2}</p>
+            </div>
           </div>
         </div>
         <div className="col-lg-4">
-          <div className="skill-container">
-            <img className="skill-img" src={front} alt="skill" />
-            <h4 className="skill-intro">{skillInfo.header3}</h4>
-            <p className="skill-content">{skillInfo.intro3}</p>
+          <div className="card-design">
+            <div className="skill-container">
+              <img className="skill-img" src={front} alt="skill" />
+              <h4 className="skill-intro">{skillInfo.header3}</h4>
+              <p className="skill-content">{skillInfo.intro3}</p>
+            </div>
           </div>
         </div>
       </div>

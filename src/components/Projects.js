@@ -3,7 +3,10 @@ import Navbar from "../views/Navbar";
 import { Link } from "react-router-dom";
 
 import "../style/projects.css";
+
 import { projects, filterButtons } from "../data/projects";
+
+import { MainButton, CodeButton, LinkButton } from "../components/Svg/MainButton"
 
 function Projects() {
   
@@ -30,7 +33,6 @@ function Projects() {
       : setMyProjects(getProjects());
   }
 
-  
 
   return (
     <div className="projects-screen">
@@ -71,38 +73,13 @@ function Projects() {
                 </div>
               </div>
               <div className="link-items">
-                <Link className="no-deco" to={type.live}>
-                  <h3>Live</h3>
-                  <svg
-                    className="svg-items"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
-                  </svg>
+                <Link className="inline-items" to={type.live}>
+                  <LinkButton />
                 </Link>
-                <Link className="no-deco" to={type.code}>
-                  <h3>Code</h3>
-                  <svg
-                    className="svg-items"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
-                  </svg>
+                <Link className="inline-items" to={type.code}>
+                  <CodeButton />
                 </Link>
+                <div className="hr-line"></div>
               </div>
             </div>
           ))}

@@ -30,19 +30,8 @@
     margin: 20px 50px;
 }
 
-.header-buttons button {
-    border: none;
-    background-color: blueviolet;
-    margin: 20px 35px 0 0;
-    color: #fff;
-    font-weight: 600;
-    font-size: 18px;
-    padding: 9px 50px;
-    border-radius: 7px;
-    box-shadow: 5px 3px 5px rgba(86, 86, 165, 0.529);
-}
-
-.header-buttons button:hover {
-    background-color: rgb(168, 89, 182);
-    box-shadow: 5px 3px 5px rgba(165, 86, 162, 0.529);
+.header-buttons .inline-items {
+    position: relative;
+    display: inline-block;
+    margin: 30px 30px 0 0;
 }

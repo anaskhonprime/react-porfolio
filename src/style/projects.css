@@ -72,7 +72,7 @@
 
 .projects {
     background-color: #fee6e3;
-    margin: 100px 15px;
+    margin: 50px 15px;
     color: #2e2424;
 }
 
@@ -90,11 +90,10 @@
     text-decoration: none;
 }
 
-.link-items h3 {
-    display: inline;
-    color: #fee6e3;
-    text-decoration: none;
-    margin-left: 5%;
+.link-items .inline-items {
+    position: relative;
+    display: inline-block;
+    margin: 0 30px 0 20px;
 }
 
 .link-items h3:hover {
@@ -108,4 +107,13 @@
     height: 26px;
     color: #fee6e3;
     margin: -5px 100px 0 30px;
+}
+
+.hr-line {
+    position: relative;
+    width: 70%;
+    height: 1px;
+    opacity: 30%;
+    margin: 25px 50px 70px 20px;
+    background-color: #fee6e3;
 }

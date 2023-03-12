@@ -9,7 +9,7 @@ const aboutInfo = {
 };
 
 const skillInfo = {
-  header1: "Education History",
+   header1: "Education History",
   header2: "My Skills & Experiences",
   header3: "Experience",
   intro1:
