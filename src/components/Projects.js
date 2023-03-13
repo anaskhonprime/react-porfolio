@@ -6,7 +6,7 @@ import "../style/projects.css";
 
 import { projects, filterButtons } from "../data/projects";
 
-import { MainButton, CodeButton, LinkButton } from "../components/Svg/MainButton"
+import {CodeButton, LinkButton } from "../components/Svg/MainButton"
 
 function Projects() {
   

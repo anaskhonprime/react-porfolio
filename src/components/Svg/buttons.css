@@ -20,6 +20,7 @@
     background: linear-gradient(to right, #e0006c, #8e2de2);
     color: #fee6e3;
     overflow: hidden;
+    box-shadow: 5px 10px #252323;
 }
 
 .code-button svg {
