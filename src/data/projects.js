@@ -24,7 +24,7 @@ const projects = [
   },
 
   {
-    name: "ReactJs Based Mobile Dapp ",
+    name: "ETH Dapp ",
     id: 3,
     category: "react",
     content:
@@ -43,7 +43,7 @@ const projects = [
       "Ethereum Mainnet Minting App Development, BeyondFood Nft Public Sales",
     image:
       "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-2102f.appspot.com/o/dapp.png?alt=media&token=dfb730aa-b94a-4d09-979c-a822257f6e1e",
-    live: "https://reactprime505.web.app/",
+    live: "https://www.beyondfood.shop/",
     code: "https://github.com/anaskhonprime",
   },
 
@@ -52,7 +52,8 @@ const projects = [
     id: 5,
     category: "blockchain",
 
-    content: "ERC721/ERC721A Smart Contract Development, NFT Royalties   ",
+    content:
+      "Ethereum, Polygon Mainnet, ERC721 / ERC721A Smart Contract Development, NFT Royalties    ",
     image:
       "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-2102f.appspot.com/o/my.png?alt=media&token=c977dd21-dc3a-45c7-a2cc-05635663db41",
     live: "https://github.com/anaskhonprime",

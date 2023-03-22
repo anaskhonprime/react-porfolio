@@ -23,9 +23,7 @@ function Navbar() {
             <Link className="text-link" to="/projects">
               <li>Projects</li>
             </Link>
-            <Link className="text-link" to="/blogs">
-              <li>Blogs</li>
-            </Link>
+           
           </ul>
         </div>
 

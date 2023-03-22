@@ -18,16 +18,12 @@
 }
 
 .about-header-text h1 {
-    margin: 30px 0;
-    background-color: rgba(237, 177, 237, 0.359);
+    margin: 30px 10px;
     color: #fff;
     width: 40%;
-    padding: 20px 40px;
+    padding: 20px 0;
     font-size: 26px;
     font-weight: bold;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border: 1px solid #ffffff37;
 }
 
 .about-skills-text h1 {
@@ -48,6 +44,7 @@
 }
 
 .profile-img {
+    margin: 10% 2%;
     width: 70%;
     border-radius: 20px;
     border: 1px solid #fff;
@@ -55,10 +52,11 @@
 }
 
 .about-body .about-body-text {
-    background-color: #92858551;
+    background-color: rgba(68, 84, 254, 0);
+    background-image: linear-gradient(144deg, rgba(255, 111, 76, 0.14), rgba(68, 84, 254, 0.14));
     width: 70%;
     margin: 20px 0;
-    padding: 30px;
+    padding: 40px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     font-weight: 400;
@@ -82,7 +80,7 @@
 .skill-header {
     font-weight: 700;
     margin: 10px 25px;
-    color: #000;
+    color: #fff;
     opacity: 70%;
     font-size: 26px;
 }
@@ -110,6 +108,15 @@
     background-color: #fff;
 }
 
+.pause-single {
+    width: 70px;
+    height: 1px;
+    margin: 5px 25px 10px;
+    border-radius: 10px;
+    background-color: rgb(226, 43, 171);
+    opacity: 80%;
+}
+
 .hr-style {
     width: 10%;
     margin: 15px 20px;
@@ -122,7 +129,6 @@
 }
 
 .skill-container {
-    background-color: #9841fc22;
     min-height: 520px;
     border-radius: 20px;
 }
@@ -130,26 +136,27 @@
 .card-design {
     padding: 5px;
     margin: 10px 25px;
-    border-radius: 20px;
-    box-shadow: #9841fc22 0 15px 30px -5px;
-    background-image: linear-gradient(144deg, #8940ff, #bf40ff77 50%);
+    border-radius: 10px;
+    background-color: rgba(68, 84, 254, 0);
+    background-image: linear-gradient(144deg, rgba(255, 111, 76, 0.14), rgba(68, 84, 254, 0.14));
 }
 
 .personality-container {
-    background-color: #92858551;
+    background-color: rgba(68, 84, 254, 0);
+    background-image: linear-gradient(144deg, rgba(255, 111, 76, 0.14), rgba(68, 84, 254, 0.14));
     margin: 10px 20px;
     min-height: 320px;
     padding: 3% 5%;
     border-radius: 20px;
-    border: 1px solid #d4b3b3;
+    border: 2px solid #4454fe31;
 }
 
 .skill-img {
     width: 100%;
     height: 250px;
     object-fit: cover;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .tech-margin {
@@ -158,20 +165,21 @@
 
 .skill-intro {
     font-weight: 600;
-    margin: 30px 25px;
+    margin: 30px 20px 15px;
 }
 
 .skill-content {
-    width: 80%;
+    width: 85%;
     margin: 20px 25px;
     padding-bottom: 30px;
     opacity: 80%;
 }
 
 .programming {
-    background-color: #f4f4f4;
+    background-color: rgba(68, 84, 254, 0);
+    background-image: linear-gradient(144deg, rgba(255, 111, 76, 0.14), rgba(68, 84, 254, 0.14));
     width: 95%;
-    color: #000;
+    color: #fff;
     padding: 2% 3%;
     margin: 15px 0;
     height: 100%;
@@ -193,12 +201,11 @@
 }
 
 .barContainer {
-    height: 40px;
+    height: 35px;
+    background-color: rgba(68, 84, 254, 0.105);
     width: 90%;
-    background-color: rgb(227, 226, 221);
     border-radius: 15px;
     margin: 23px;
-    box-shadow: 5px 3px 10px #f5f0f0;
 }
 
 .fillerStyle {
@@ -208,6 +215,7 @@
 
 .filterStyle .labelName {
     text-align: left;
+    font-weight: bold;
 }
 
 .filterStyle .labelStyle {
@@ -238,12 +246,12 @@
     width: 100px;
     text-align: center;
     height: 100px;
-    margin: 5px;
-    background-color: #e7e3e3;
+    margin: 6px;
+    background-color: rgba(68, 84, 254, 0.105);
     padding: 12px;
     border-radius: 20px;
     object-fit: cover;
-    box-shadow: rgba(163, 177, 192, 0.2) 0px 8px 24px;
+    box-shadow: rgba(68, 84, 254, 0.048) 0px 8px 24px;
 }
 
 .github-items {
@@ -253,19 +261,19 @@
     line-height: 1;
     text-align: center;
     height: 100px;
-    margin: 5 px;
-    background-color: #e7e3e3;
+    margin: 5px;
+    background-color: rgba(68, 84, 254, 0.105);
     padding: 5px;
     border-radius: 20px;
     object-fit: cover;
-    box-shadow: rgba(163, 177, 192, 0.2) 0px 8px 24px;
+    box-shadow: rgba(68, 84, 254, 0.048) 0px 8px 24px;
 }
 
 .github-header {
-    font-size: 16px;
+    font-size: 14px;
     margin: 8px 0;
     font-weight: 600;
-    color: rgb(97, 25, 86);
+    color: #fff;
 }
 
 .github-mark {
@@ -274,7 +282,7 @@
     width: 50px;
     font-size: 28px;
     height: 50px;
-    color: rgb(97, 25, 86);
+    color: #fff;
     font-weight: bold;
     padding: 15px 0;
 }

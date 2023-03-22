@@ -46,6 +46,7 @@ function About() {
             <div className="skill-container">
               <img className="skill-img" src={skills} alt="skill" />
               <h4 className="skill-intro">{skillInfo.header1}</h4>
+              <div className="pause-single"></div>
               <p className="skill-content">{skillInfo.intro1}</p>
             </div>
           </div>
@@ -55,6 +56,7 @@ function About() {
             <div className="skill-container">
               <img className="skill-img" src={react} alt="skill" />
               <h4 className="skill-intro">{skillInfo.header2}</h4>
+              <div className="pause-single"></div>
               <p className="skill-content">{skillInfo.intro2}</p>
             </div>
           </div>
@@ -64,6 +66,7 @@ function About() {
             <div className="skill-container">
               <img className="skill-img" src={front} alt="skill" />
               <h4 className="skill-intro">{skillInfo.header3}</h4>
+              <div className="pause-single"></div>
               <p className="skill-content">{skillInfo.intro3}</p>
             </div>
           </div>
@@ -140,6 +143,7 @@ function About() {
           <div className="col-lg-4">
             <div key={a} className="personality-container">
               <h4 className="skill-intro">{personality[a].name}</h4>
+              <div className="pause-single"></div>
               <p className="skill-content">{personality[a].content}</p>
             </div>
           </div>

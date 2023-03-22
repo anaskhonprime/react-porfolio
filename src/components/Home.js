@@ -21,7 +21,7 @@ function Home() {
             <Link className="inline-items" to="/projects">
               <MainButton />
             </Link>
-            <Link className="inline-items" to="/blogs">
+            <Link className="inline-items" to="https://prmblogs.tistory.com/">
               <BlogsButton />
             </Link>
           </div>

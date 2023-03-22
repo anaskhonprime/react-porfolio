@@ -22,8 +22,8 @@ function Projects() {
   }
 
   function filterProjects(pType) {
-    let filtredProject = getProjects().filter(type => type.category === pType);
-    return filtredProject;
+    let filteredProject = getProjects().filter(type => type.category === pType);
+    return filteredProject;
   }
 
   function handleFilter(e) {
@@ -68,8 +68,9 @@ function Projects() {
               <div className="projects">
                 <img className="projects-img" src={type.image} alt="" />
                 <div className="project-content">
-                  <h3>{type.name}</h3>
-                  <p>{type.content}</p>
+                  <h3 className="project-intro">{type.name}</h3>
+                  <div className="pause-single"></div>
+                  <p className="project-content">{type.content}</p>
                 </div>
               </div>
               <div className="link-items">

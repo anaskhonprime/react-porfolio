@@ -62,11 +62,11 @@ const techImages = [
 ];
 
 const githubInfo = [
-  { name: "Stars", value: "73", mark: "A" },
-  { name: "Commits", value: "185", mark: "A" },
-  { name: "Followers", value: "21", mark: "B" },
-  { name: "Repositories", value: "12", mark: "B" },
-  { name: "Issues", value: "1", mark: "C" },
+  { name: "Star", value: "73", mark: "A" },
+  { name: "Commit", value: "185", mark: "A" },
+  { name: "Follower", value: "21", mark: "B" },
+  { name: "Repository", value: "12", mark: "B" },
+  { name: "Issue", value: "1", mark: "C" },
 ];
 
 
