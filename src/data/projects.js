@@ -1,6 +1,17 @@
 const projects = [
   {
     name: "Personal Portfolio",
+    id: 6,
+    category: "react",
+    content:
+      "ReactJs Based Personal Portfolio Web Application, Included About, Projects and Blog Pages",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/anaskhonprime.appspot.com/o/sm.png?alt=media&token=07719066-9799-4b40-8708-918f6b84b953",
+    live: "https://github.com/anaskhonprime",
+    code: "https://github.com/anaskhonprime",
+  },
+  {
+    name: "Personal Portfolio",
     id: 1,
     category: "vue",
     content:
@@ -56,18 +67,6 @@ const projects = [
       "Ethereum, Polygon Mainnet, ERC721 / ERC721A Smart Contract Development, NFT Royalties    ",
     image:
       "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-2102f.appspot.com/o/my.png?alt=media&token=c977dd21-dc3a-45c7-a2cc-05635663db41",
-    live: "https://github.com/anaskhonprime",
-    code: "https://github.com/anaskhonprime",
-  },
-
-  {
-    name: "Personal Portfolio",
-    id: 6,
-    category: "react",
-    content:
-      "ReactJs Based Personal Portfolio Web Application, Included About, Projects and Blog Pages",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/anaskhonprime.appspot.com/o/sm.png?alt=media&token=07719066-9799-4b40-8708-918f6b84b953",
     live: "https://github.com/anaskhonprime",
     code: "https://github.com/anaskhonprime",
   },

@@ -73,16 +73,19 @@ const githubInfo = [
 const personality = [
   {
     name: "Quick Learning",
+    icon: "https://banner2.cleanpng.com/20180329/plw/kisspng-computer-icons-icon-design-photography-royalty-fre-sparkles-5abd60e97f1e51.8088080615223605535207.jpg",
     content:
       "Best software developers are often fantastic self-learners.The ideal skill any person can have is understanding how to learn, and ideal developers have acquired the skill of self-learning.",
   },
   {
     name: "Problem Solving",
+    icon: "https://png.pngtree.com/png-vector/20191110/ourmid/pngtree-bulb-vector-icon-white-transparent-background-png-image_1978020.jpg",
     content:
       "Problem-solving is a one of the most important part of the work. Problem-solving also has to do with utilizing creativity and logical thought processes to identify problems and resolve them with software.",
   },
   {
     name: "Honesty",
+    icon: "https://c8.alamy.com/comp/R1R2RN/loading-vector-icon-isolated-on-transparent-background-loading-transparency-logo-concept-R1R2RN.jpg",
     content:
       "Software developers need to learn to admit their mistakes. Of course, making a mistake occurs to all of us. The most important thing to do is to make an effort to learn from them and try to avoid them later in life.",
   },

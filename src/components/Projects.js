@@ -5,17 +5,18 @@ import { Link } from "react-router-dom";
 import "../style/projects.css";
 
 import { projects, filterButtons } from "../data/projects";
+import { CodeButton, LinkButton } from "../components/Svg/MainButton";
 
-import {CodeButton, LinkButton } from "../components/Svg/MainButton"
+import { Reveal } from "react-awesome-reveal";
+import { fadeInDownShorter } from "../components/Animations/animation";
 
 function Projects() {
-  
   const [myProjects, setMyProjects] = useState(null);
-  
+
   useEffect(() => {
     setMyProjects(getProjects());
   }, []);
-   
+
   function getProjects() {
     const pList = projects;
     return pList;
@@ -32,7 +33,6 @@ function Projects() {
       ? setMyProjects(filterProjects(typePro))
       : setMyProjects(getProjects());
   }
-
 
   return (
     <div className="projects-screen">
@@ -63,25 +63,30 @@ function Projects() {
 
       <div className="row screen-2">
         {myProjects &&
-          myProjects.map(type => (
+          myProjects.map((type, a) => (
             <div key={type.id} className="col-lg-4">
-              <div className="projects">
-                <img className="projects-img" src={type.image} alt="" />
-                <div className="project-content">
-                  <h3 className="project-intro">{type.name}</h3>
-                  <div className="pause-single"></div>
-                  <p className="project-content">{type.content}</p>
+              <Reveal
+                keyframes={fadeInDownShorter}
+                duration={700}
+                delay={100 * (a + 1)}>
+                <div className="projects">
+                  <img className="projects-img" src={type.image} alt="" />
+                  <div className="project-content">
+                    <h3 className="project-intro">{type.name}</h3>
+                    <div className="pause-single"></div>
+                    <p className="project-content">{type.content}</p>
+                  </div>
                 </div>
-              </div>
-              <div className="link-items">
-                <Link className="inline-items" to={type.live}>
-                  <LinkButton />
-                </Link>
-                <Link className="inline-items" to={type.code}>
-                  <CodeButton />
-                </Link>
-                <div className="hr-line"></div>
-              </div>
+                <div className="link-items">
+                  <Link className="inline-items" to={type.live}>
+                    <LinkButton />
+                  </Link>
+                  <Link className="inline-items" to={type.code}>
+                    <CodeButton />
+                  </Link>
+                  <div className="hr-line"></div>
+                </div>
+              </Reveal>
             </div>
           ))}
       </div>

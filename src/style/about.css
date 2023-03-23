@@ -166,6 +166,9 @@
 .skill-intro {
     font-weight: 600;
     margin: 30px 20px 15px;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .skill-content {
@@ -289,4 +292,16 @@
 
 .screen-margin {
     margin-top: 150px;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
 }

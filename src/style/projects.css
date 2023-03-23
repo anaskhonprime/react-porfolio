@@ -71,8 +71,8 @@
 }
 
 .projects {
-    background-color: rgba(68, 84, 254, 0);
-    background-image: linear-gradient(144deg, rgba(255, 111, 76, 0.14), rgba(68, 84, 254, 0.14));
+    background-color: #4454fe00;
+    background-image: linear-gradient(144deg, #ff6f4c24, #4454fe24);
     margin: 50px 15px;
     color: #fff;
     border-radius: 10px;
