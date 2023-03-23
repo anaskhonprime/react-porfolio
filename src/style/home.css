@@ -30,7 +30,6 @@
     margin: 20px 50px;
     border-radius: 10px;
     border: 5px solid #4454fe17;
-    ;
 }
 
 .header-buttons .inline-items {
@@ -48,5 +47,28 @@
 @keyframes blink {
     50% {
         border-color: transparent
+    }
+}
+
+@media (max-width: 992px) {
+    .header-text {
+        text-align: center;
+    }
+    .header-text h1 {
+        font-size: 30px;
+        width: 100%;
+        margin: 50px auto 30px;
+        line-height: 1.5;
+    }
+    .header-text p {
+        font-size: 18px;
+        width: 80%;
+        margin: 50px auto 30px;
+        line-height: 1.1;
+    }
+    .header-image {
+        width: 100%;
+        margin: 20px auto;
+        border-radius: 10px;
     }
 }
