@@ -1,0 +1,124 @@
+.resume-body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.resume-1 {
+    padding: 2% 2%;
+    margin: 0;
+    width: 100vw;
+    position: fixed;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.resume-2 {
+    position: relative;
+}
+
+.resume-3 {
+    padding: 2% 25%;
+    background-color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.start {
+    position: relative;
+    display: inline-block;
+}
+
+.start p {
+    display: inline;
+    margin: 10px;
+    color: #111;
+}
+
+.img-small {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.links {
+    position: relative;
+    color: #111;
+}
+
+.resume-links {
+    position: relative;
+    list-style: none;
+    text-align: right;
+    margin: 0px 15px;
+}
+
+.r-link {
+    text-decoration: none;
+    color: #111;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 8px;
+}
+
+.r-link:hover {
+    color: #1f8d4d;
+    font-weight: 500;
+}
+
+.banner-img {
+    width: 100%;
+    margin: 5% 0 0;
+    height: 250px;
+    object-fit: cover;
+}
+
+.resume-content {
+    height: 100vh;
+}
+
+.main-img {
+    width: 220px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    border: 2px solid #f1eeee;
+}
+
+.greeting {
+    font-weight: 500;
+    color: #141520;
+    margin-top: 15%;
+    margin-bottom: 70px;
+}
+
+.intro-header {
+    position: relative;
+    display: inline-block;
+    margin: 10px 0 50px;
+}
+
+.intro-header h4 {
+    width: 100%;
+    display: inline-block;
+    color: #1c892e;
+    margin-bottom: 30px;
+}
+
+.intro-text h5 {
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 80%;
+}
+
+.list li {
+    opacity: 80%;
+    width: 95%;
+    margin: 10px 0;
+}

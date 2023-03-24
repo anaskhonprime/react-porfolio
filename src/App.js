@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import About from "./components/About";
+import Resume from "./components/Resume";
 import NotFound from "./components/404";
 
 /* Importing  Page Loader Component */
@@ -24,17 +25,17 @@ function App() {
 
   return (
     <>
-     {/*  {loading === false ? ( */}
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Home />}></Route>
-            <Route path="/Projects" element={<Projects />}></Route>
-            <Route path="/about" element={<About />}></Route>
-
-            <Route path="*" element={<NotFound />}></Route>
-          </Routes>
-        </BrowserRouter>
-     {/*  ) : (
+      {/*  {loading === false ? ( */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/Projects" element={<Projects />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/resume" element={<Resume />}></Route>
+          <Route path="*" element={<NotFound />}></Route>
+        </Routes>
+      </BrowserRouter>
+      {/*  ) : (
         <Loader />
       )} */}
     </>

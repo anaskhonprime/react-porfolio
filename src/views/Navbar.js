@@ -33,7 +33,7 @@ function Navbar() {
             </svg>
           </div>
         </div>
-        
+
         <div className="col-lg-7 navbar-body">
           <ul>
             <Link className="text-link" to="/">
@@ -45,9 +45,12 @@ function Navbar() {
             <Link className="text-link" to="/projects">
               <li>Projects</li>
             </Link>
+            <Link className="text-link" to="/resume">
+              <li>Resume</li>
+            </Link>
           </ul>
         </div>
-        
+
         <div className="col-lg-2 responsive navbar-body ">
           <ul>
             <Link className="text-link" to="/">

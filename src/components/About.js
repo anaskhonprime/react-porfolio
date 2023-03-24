@@ -123,7 +123,7 @@ function About() {
           </div>
         </div>
         <div className="col-lg-6">
-          <div className="programming">
+          <div className="programming free">
             <h2 className="skill-header">GitHub Activity</h2>
             <div className="pause"></div>
             <Reveal keyframes={fadeInDownShorter} duration={500} delay={500}>

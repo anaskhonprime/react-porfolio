@@ -127,8 +127,9 @@
     width: 200px;
     height: 1px;
     border-radius: 10px;
-    background-color: rgb(226, 43, 171);
+    background-color: #e22bab;
     opacity: 80%;
+    margin: 0;
 }
 
 .project-intro {
@@ -140,4 +141,43 @@
     width: 90%;
     opacity: 80%;
     font-size: 16px;
+}
+
+@media (max-width: 992px) {
+    .screen-1 {
+        padding: 1% 5%;
+        margin: 20px 0;
+    }
+    .filter-buttons {
+        font-size: 14px;
+        margin: 20px 1px;
+        height: 35px;
+        padding: 0 14px;
+    }
+    .projects {
+        margin: 10px 5px;
+        width: 100%;
+    }
+    .projects-img {
+        height: 220px;
+        padding: 5px;
+    }
+    .project-intro {
+        font-size: 24px;
+        margin: 10px;
+    }
+    .pause-single {
+        width: 250px;
+        height: 1px;
+    }
+    .link-items .inline-items {
+        position: relative;
+        display: inline-block;
+        margin: 20px 10px;
+    }
+    .hr-line {
+        width: 90%;
+        opacity: 40%;
+        margin: 25px 50px 70px 20px;
+    }
 }
