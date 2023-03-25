@@ -1,6 +1,4 @@
 .resume-body {
-    width: 100vw;
-    height: 100vh;
     margin: 0;
     padding: 0;
     background-color: #fff;
@@ -78,7 +76,7 @@
 }
 
 .resume-content {
-    height: 100vh;
+    background-color: #fff;
 }
 
 .main-img {
@@ -91,6 +89,10 @@
     border: 2px solid #f1eeee;
 }
 
+.free-space {
+    margin: 15px 0;
+}
+
 .greeting {
     font-weight: 500;
     color: #141520;
@@ -100,8 +102,9 @@
 
 .intro-header {
     position: relative;
-    display: inline-block;
+    display: inline;
     margin: 10px 0 50px;
+    background-color: #fff;
 }
 
 .intro-header h4 {
@@ -117,8 +120,31 @@
     opacity: 80%;
 }
 
+.intro-body {
+    margin: 60px 0;
+}
+
 .list li {
     opacity: 80%;
     width: 95%;
     margin: 10px 0;
+}
+
+.my-list ul li {
+    opacity: 80%;
+    width: 95%;
+    margin: 10px 0;
+}
+
+.text-underline {
+    text-decoration: underline;
+    font-weight: 500;
+    text-underline-offset: 5px;
+    text-decoration-color: #1c892e;
+}
+
+.my-list ul li a {
+    text-decoration: none;
+    color: #1c892e;
+    margin: 0 7px;
 }
