@@ -114,6 +114,10 @@
     margin-bottom: 30px;
 }
 
+.work-text {
+    margin-top: 50px;
+}
+
 .intro-text h5 {
     font-size: 25px;
     font-weight: 500;
@@ -147,4 +151,27 @@
     text-decoration: none;
     color: #1c892e;
     margin: 0 7px;
+}
+
+.works-time p {
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 30px;
+    color: #1c892e;
+    font-weight: 500;
+}
+
+.works-job p {
+    display: inline-block;
+    margin-left: 8px;
+    color: #1c892e;
+    font-weight: 500;
+}
+
+.works-intro p {
+    font-size: 17px;
+    display: inline-block;
+    margin-left: 8px;
+    color: #1c892e;
+    font-weight: 600;
 }
