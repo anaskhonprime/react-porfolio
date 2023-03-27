@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import { activities } from "../../data/resume.js";
 import "../../style/resume.css";
 import { CodeSVG, HashSVG, TimeSVG, StarSVG } from "../Svg/SvgIcons.js";
