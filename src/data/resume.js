@@ -11,13 +11,12 @@ export const Intro = [
     list: "안녕하세요! 한국에서 5년차 생활중인 프론트엔드 개발자 아론이라고 합니다.",
   },
   {
-    list: "어렸을 때부터 공부와 새로운 지식에 대한 관심이 많았고 무엇이든 긍정적으로 생각하자는 성격입니다. ",
+    list: "어렸을 때부터 공부와 새로운 지식에 대한 관심이 많았으며 무엇이든 긍정적으로 생각하자는 성격입니다. ",
   },
-  { list: "평소 성실하고 시간약속을 잘 지키는 성격입니다. " },
   {
-    list: "처음 만난 사람이라도 잘 낯가리지 않고 먼저 말 걸어주는 성격입니다.",
+    list: "평소 성실하고 시간약속을 잘 지키려고 노력하고 처음 만난 사람이라도 잘 낯가리지 않고 먼저 말 걸어주는 성격입니다. ",
   },
-  { list: "개발자로써 올바른 문제 해결 방식과 기억보다 기록을 중요해봅니다." },
+
   {
     list: "꾸준함을 좋아합니다. 매일 2-3시간 개인 공부, 30분 산책 등 좋은 습관을 꾸준히 유지하도록 합니다.  ",
   },
@@ -91,3 +90,50 @@ export const work3 = {
   unfortunate:
     "경제적인 여유, 자유로운 출퇴근 등 장점이 있지만 부족한 팀워크 경험, 사회생활과 같은 분야 사람들과 네트워킹 부분이 개인적으로 아쉬웠습니다. ",
 };
+
+export const exp1 = {
+  name: "ReactJs 기반 포트폴리오 프로젝트",
+  stack: "ReactJs, HTML5, CSS3, Bootstrap",
+  stack1: "Firebase, Github",
+  content: "ReactJs 기반으며 간단한 자기소개, 프로젝트 내용, 이력서로 구분.",
+  special:
+    "ReactJs 기반으로 UI 컴포넌트 개발, 추가적인 이력서 페이지, 아이템 필터 기능, 페이지 로딩 기능 실습",
+  live: "https://anaskhonprime.web.app/",
+  code: "https://github.com/anaskhonprime",
+};
+
+export const exp2 = {
+  name: "VueJs 기반 포트폴리오 프로젝트",
+  stack: "VueJs, HTML5, CSS3, TailwindCss",
+  stack1: "Firebase, Github",
+  content:
+    "포트폴리오 홈페이지는 간단한 자기소개, 프로젝트와 블로그 페이지로 구성.",
+  special:
+    "홈페이지 UI 개발, 사용자 회원가입 & 로그인 기능 구현, Firebase과 연동 및 배포",
+  live: "https://personal-portfolio-2102f.web.app/",
+  code: "https://github.com/anaskhonprime/vuejs-tailwind-portfolio",
+};
+
+export const exp3 = {
+  name: "ETHEREUM PUBLIC SALES",
+  stack: "ReactJs, TailwindCss ",
+  stack1: "NodeJs, Firebase, Smart Contracts, Blockchain ",
+  content:
+    "이 프로젝트는 ReactJS, Tailwind CSS 기반으로 이더리움 메인넷으로 NFT 퍼블릭 세일 민팅을 제공하는 프로젝트.",
+  special:
+    "프로젝트 특징은 PC와 모바일 환경에서 지갑 연결을 제공하고 민팅 페이지에서 지갑 연결 후 민팅 정보, 진행 사항을 실시간으로 확인할수 있게 구현.",
+  live: "https://reactprime505.web.app/",
+  code: "https://github.com/anaskhonprime/react-eth-mint-dapp",
+};
+
+export const exp4 = {
+  name: "CIS 활동",
+  stack: "전남대학교 국제협력본부 외국인 서포터즈 10기, 11기",
+  content: "전남대학교 외국인 대상으로 다양한 행사 기획 및 운영 ",
+  special:
+    "앞으로 프론트엔드 개발 분야에서 도움이 되는 활동, 홍보팀으로 다양한 카트뉴스, 행사 포스터, 명찰, 영상 제작",
+  live1: "https://www.instagram.com/p/CWVn6eyBG4X/?igshid=YmMyMTA2M2Y=",
+  live2: "https://www.instagram.com/p/CZRMOpNBotn/?igshid=YmMyMTA2M2Y=",
+  live3: "https://www.instagram.com/p/CPr-myEBE_E/?igshid=YmMyMTA2M2Y=",
+};
+

@@ -18,11 +18,11 @@
     }
     
     .about-header-text h1 {
-        margin: 30px 10px;
+        margin: 0 10px 30px;
         color: #fff;
         width: 40%;
         padding: 20px 0;
-        font-size: 26px;
+        font-size: 22px;
         font-weight: bold;
     }
     
@@ -44,15 +44,15 @@
     }
     
     .profile-img {
-        margin: 10% 2%;
+        margin: 15% 2%;
         width: 70%;
         border-radius: 20px;
         border: 1px solid #fff;
-        box-shadow: 10px 5px 1px #fff;
+        box-shadow: 5px 5px 1px #fff;
     }
     
     .about-body .about-body-text {
-        background-color: rgba(68, 84, 254, 0);
+        background-color: #4454fe00;
         background-image: linear-gradient(144deg, rgba(255, 111, 76, 0.14), rgba(68, 84, 254, 0.14));
         width: 70%;
         margin: 20px 0;
@@ -60,7 +60,7 @@
         border-top-right-radius: 10px;
         border-bottom-left-radius: 10px;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 16px;
         opacity: 80%;
         line-height: 1.5;
     }
@@ -82,7 +82,7 @@
         margin: 10px 25px;
         color: #fff;
         opacity: 70%;
-        font-size: 26px;
+        font-size: 20px;
     }
     
     .header-center {
@@ -153,7 +153,7 @@
     
     .skill-img {
         width: 100%;
-        height: 250px;
+        height: 200px;
         object-fit: cover;
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
@@ -166,16 +166,16 @@
     .skill-intro {
         font-weight: 600;
         margin: 30px 20px 15px;
-        animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-        white-space: nowrap;
         overflow: hidden;
+        font-size: 20px;
     }
     
     .skill-content {
         width: 85%;
         margin: 20px 25px;
         padding-bottom: 30px;
-        opacity: 80%;
+        opacity: 60%;
+        font-size: 15px;
     }
     
     .programming {
@@ -204,7 +204,7 @@
     }
     
     .barContainer {
-        height: 35px;
+        height: 30px;
         background-color: rgba(68, 84, 254, 0.105);
         width: 90%;
         border-radius: 15px;
@@ -214,6 +214,10 @@
     .fillerStyle {
         height: 100%;
         border-radius: inherit;
+    }
+    
+    .labelName {
+        font-size: 12px;
     }
     
     .filterStyle .labelName {
@@ -246,9 +250,9 @@
     }
     
     .tech-img {
-        width: 100px;
+        width: 90px;
         text-align: center;
-        height: 100px;
+        height: 90px;
         margin: 5px;
         background-color: rgba(68, 84, 254, 0.105);
         padding: 12px;
@@ -260,10 +264,10 @@
     .github-items {
         display: inline-block;
         text-align: center;
-        width: 100px;
+        width: 90px;
         line-height: 1;
         text-align: center;
-        height: 100px;
+        height: 90px;
         margin: 5px;
         background-color: rgba(68, 84, 254, 0.105);
         padding: 5px;
@@ -273,7 +277,7 @@
     }
     
     .github-header {
-        font-size: 14px;
+        font-size: 12px;
         margin: 8px 0;
         font-weight: 600;
         color: #fff;
@@ -283,7 +287,7 @@
         width: 30%;
         margin: 5px auto;
         width: 50px;
-        font-size: 28px;
+        font-size: 22px;
         height: 50px;
         color: #fff;
         font-weight: bold;

@@ -5,7 +5,7 @@ import { Intro, work1, work2, work3 } from "../../data/resume.js";
 import "../../style/resume.css";
 import { CodeSVG, TimeSVG, StarSVG, HashSVG } from "../Svg/SvgIcons.js";
 
-function ResumeWorks() {
+function ResumeExprerience() {
   return (
     <>
       <div className="row intro-body">
@@ -80,7 +80,7 @@ function ResumeWorks() {
 
         {/* 활동 내용 */}
 
-        <div className="col-lg-6  intro-text">
+        <div className="col-lg-6 intro-text">
           <h5>{work2.place}</h5>
           <div className="works-time">
             <TimeSVG />
@@ -193,11 +193,11 @@ function ResumeWorks() {
           </ul>
         </div>
 
-        <hr className="mt-5" />
+       
         {/* 활동 내용 */}
       </div>
     </>
   );
 }
 
-export default ResumeWorks;
+export default ResumeExprerience;

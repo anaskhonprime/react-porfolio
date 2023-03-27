@@ -34,7 +34,7 @@ function Navbar() {
           </div>
         </div>
 
-        <div className="col-lg-7 navbar-body">
+        <div className="col-lg-8 navbar-body">
           <ul>
             <Link className="text-link" to="/">
               <li>Home</li>
@@ -62,9 +62,9 @@ function Navbar() {
             </Link>
           </ul>
         </div>
-        <div className="col-lg-1 responsive navbar-body">
+        {/* <div className="col-lg-1 responsive navbar-body">
           <SVGMode />
-        </div>
+        </div */}
       </div>
     </>
   );

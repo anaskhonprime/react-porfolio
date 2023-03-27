@@ -54,18 +54,21 @@
     margin: 0px 15px;
 }
 
-.r-link {
+.r-link li {
     text-decoration: none;
     color: #111;
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     margin: 0 8px;
+    padding: 2px 4px;
 }
 
-.r-link:hover {
-    color: #1f8d4d;
+.r-link li:hover {
+    background-color: #e7f5ed;
     font-weight: 500;
+    padding: 2px 4px;
+    color: #1c892e;
 }
 
 .banner-img {
@@ -119,9 +122,9 @@
 }
 
 .intro-text h5 {
-    font-size: 25px;
-    font-weight: 500;
-    opacity: 80%;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 70%;
 }
 
 .intro-body {
@@ -138,6 +141,7 @@
     opacity: 80%;
     width: 95%;
     margin: 10px 0;
+    font-size: 14px;
 }
 
 .text-underline {
@@ -153,12 +157,18 @@
     margin: 0 7px;
 }
 
+.ul-list {
+    list-style: none;
+    padding: 0;
+}
+
 .works-time p {
     display: inline-block;
     margin-left: 8px;
     margin-top: 30px;
     color: #1c892e;
     font-weight: 500;
+    font-size: 14px;
 }
 
 .works-job p {
@@ -166,10 +176,11 @@
     margin-left: 8px;
     color: #1c892e;
     font-weight: 500;
+    font-size: 14px;
 }
 
 .works-intro p {
-    font-size: 17px;
+    font-size: 14px;
     display: inline-block;
     margin-left: 8px;
     color: #1c892e;

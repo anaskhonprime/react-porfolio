@@ -5,7 +5,6 @@ import { Intro } from "../../data/resume.js";
 import "../../style/resume.css";
 import { CodeSVG } from "../Svg/SvgIcons.js";
 
-
 function ResumeAbout() {
   return (
     <>
@@ -19,10 +18,10 @@ function ResumeAbout() {
           </div>
           <hr />
         </div>
-        <div className="col-lg-5 intro-text">
+        <div className="col-lg-6 intro-text">
           <h5>Introduction</h5>
         </div>
-        <div className="col-lg-7 my-list">
+        <div className="col-lg-6 my-list">
           <ul>
             {Intro.map((key, a) => (
               <div key={a} className="list">
@@ -33,11 +32,14 @@ function ResumeAbout() {
         </div>
       </div>
       <div className="row intro-body ">
-        <div className="col-lg-5  intro-text">
+        <div className="col-lg-6  intro-text">
           <h5>Contact & Blogs</h5>
         </div>
-        <div className="col-lg-7 my-list">
+        <div className="col-lg-6 my-list">
           <ul>
+            <li className="text-underline">
+              Personal : 만 25세, 비자타입: 구직비자(D-10)
+            </li>
             <li className="text-underline">
               Email : <span> smlife202@gmail.com</span>
             </li>

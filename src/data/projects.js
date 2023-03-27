@@ -7,7 +7,7 @@ const projects = [
       "ReactJs Based Personal Portfolio Web Application, Included About, Projects and Blog Pages",
     image:
       "https://firebasestorage.googleapis.com/v0/b/anaskhonprime.appspot.com/o/sm.png?alt=media&token=07719066-9799-4b40-8708-918f6b84b953",
-    live: "https://github.com/anaskhonprime",
+    live: "https://anaskhonprime.web.app/",
     code: "https://github.com/anaskhonprime",
   },
   {

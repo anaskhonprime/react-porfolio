@@ -41,7 +41,7 @@ function Projects() {
       </div>
       <div className="row screen-1">
         <div className="col-lg-6">
-          <h1>My Projects</h1>
+          <h2>My Projects</h2>
         </div>
         <div className="col-lg-6">
           <div className="filter-container">
@@ -72,8 +72,8 @@ function Projects() {
                 <div className="projects">
                   <img className="projects-img" src={type.image} alt="" />
                   <div className="project-content">
-                    <h3 className="project-intro">{type.name}</h3>
-                    <div className="pause-single"></div>
+                    <h4 className="project-intro">{type.name}</h4>
+                    <div className="pause-pink"></div>
                     <p className="project-content">{type.content}</p>
                   </div>
                 </div>

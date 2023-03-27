@@ -49,7 +49,7 @@ function About() {
 
       <div className="row screen-2">
         <div className="header-center">
-          <h1>Education History & Experience</h1>
+          <h2>Education History & Experience</h2>
           <div className="pause-white"></div>
         </div>
         <div className="col-lg-4">
@@ -57,7 +57,7 @@ function About() {
             <div className="card-design">
               <div className="skill-container">
                 <img className="skill-img" src={skills} alt="skill" />
-                <h4 className="skill-intro">{skillInfo.header1}</h4>
+                <h5 className="skill-intro">{skillInfo.header1}</h5>
                 <div className="pause-single"></div>
                 <p className="skill-content">{skillInfo.intro1}</p>
               </div>
@@ -91,13 +91,13 @@ function About() {
       </div>
       <div className="row screen-2">
         <div className="header-center">
-          <h1>Skills & GitHub Activity</h1>
+          <h2>Skills & GitHub Activity</h2>
           <div className="pause-white"></div>
         </div>
         <div className="col-lg-6">
           <div className="programming">
             <div className="skills-cont">
-              <h2 className="skill-header">My Skills</h2>
+              <h3 className="skill-header">My Skills</h3>
               <div className="pause"></div>
               {skillBar.map((key, a) => (
                 <Reveal
@@ -164,7 +164,7 @@ function About() {
       </div>
       <div className="row screen-3">
         <div className="header-center">
-          <h1>Personality as Developer</h1>
+          <h2>Personality as Developer</h2>
           <div className="pause-white"></div>
         </div>
 

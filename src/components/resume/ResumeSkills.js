@@ -18,11 +18,11 @@ function ResumeSkills() {
         <hr />
       </div>
 
-      <div className="col-lg-5 intro-text">
+      <div className="col-lg-6 intro-text">
         <h5>Frontend</h5>
       </div>
 
-      <div className="col-lg-7  my-list">
+      <div className="col-lg-6  my-list">
         <ul>
           {frontend.map((key, a) => (
             <div key={a} className="list">
@@ -32,11 +32,11 @@ function ResumeSkills() {
         </ul>
       </div>
       <div className="free-space"></div>
-      <div className="col-lg-5 intro-text">
+      <div className="col-lg-6 intro-text">
         <h5>Backend</h5>
       </div>
 
-      <div className="col-lg-7  my-list">
+      <div className="col-lg-6  my-list">
         <ul>
           {beckend.map((key, a) => (
             <div key={a} className="list">
@@ -47,11 +47,11 @@ function ResumeSkills() {
       </div>
 
       <div className="free-space"></div>
-      <div className="col-lg-5 intro-text">
+      <div className="col-lg-6 intro-text">
         <h5>Tools & Software</h5>
       </div>
 
-      <div className="col-lg-7  my-list">
+      <div className="col-lg-6  my-list">
         <ul>
           {tools.map((key, a) => (
             <div key={a} className="list">

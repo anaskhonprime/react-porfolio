@@ -1,7 +1,7 @@
 .code-button {
     position: relative;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 0.05em;
     border-radius: 15px;
     border: none;
@@ -13,14 +13,14 @@
 .link-button {
     position: relative;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 0.05em;
     border-radius: 10px;
     border: none;
     background: linear-gradient(to right, #e0006c, #8e2de2);
     color: #fee6e3;
     overflow: hidden;
-    box-shadow: 5px 10px #252323;
+    box-shadow: 5px 8px #252323;
 }
 
 .code-button svg {
@@ -50,7 +50,7 @@
     transition: color 0.4s;
     display: inline-flex;
     align-items: center;
-    padding: 15px 40px;
+    padding: 15px 30px;
 }
 
 .code-button::before,
@@ -76,7 +76,7 @@
 .code-button::before {
     content: "";
     background: #181515;
-    width: 120%;
+    width: 150%;
     left: -10%;
     transform: skew(30deg);
     transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
@@ -85,7 +85,7 @@
 .link-button::before {
     content: "";
     background: #181515;
-    width: 120%;
+    width: 130%;
     left: -10%;
     transform: skew(30deg);
     transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
