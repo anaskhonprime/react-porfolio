@@ -15,7 +15,8 @@
         "web-vitals": "^2.1.4",
         "@emotion/react": "^11.10.5",
         "@emotion/styled": "^11.10.5",
-        "react-awesome-reveal": "^4.2.3"
+        "react-awesome-reveal": "^4.2.3",
+        "react-back-to-top-button": "^0.0.14"
     },
     "scripts": {
         "start": "react-scripts start",

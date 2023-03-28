@@ -38,7 +38,7 @@ function ResumeAbout() {
         <div className="col-lg-6 my-list">
           <ul>
             <li className="text-underline">
-              Personal : 만 25세, 비자타입: 구직비자(D-10)
+              Personal : 만 25세, ENFJ,  비자타입: 구직비자(D-10)
             </li>
             <li className="text-underline">
               Email : <span> smlife202@gmail.com</span>

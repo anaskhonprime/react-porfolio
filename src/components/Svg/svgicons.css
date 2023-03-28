@@ -7,9 +7,24 @@
 }
 
 .small-svg {
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
     color: #1c892e;
     display: inline-block;
     position: relative;
+}
+
+.bottom {
+    display: relative;
+    text-align: center;
+}
+
+.special-buttons {
+    text-align: center;
+}
+
+.special-buttons button {
+    border: none;
+    background-color: #fff;
+    padding: 0 10px;
 }

@@ -95,7 +95,8 @@ export const exp1 = {
   name: "ReactJs 기반 포트폴리오 프로젝트",
   stack: "ReactJs, HTML5, CSS3, Bootstrap",
   stack1: "Firebase, Github",
-  content: "ReactJs 기반으며 간단한 자기소개, 프로젝트 내용, 이력서로 구분.",
+  content:
+    "개인 포트폴리오 프로젝트는 ReactJs 기반으로 홈, 간단한 자기소개, 프로젝트 내용과 이력서로 구분.",
   special:
     "ReactJs 기반으로 UI 컴포넌트 개발, 추가적인 이력서 페이지, 아이템 필터 기능, 페이지 로딩 기능 실습",
   live: "https://anaskhonprime.web.app/",
@@ -137,3 +138,36 @@ export const exp4 = {
   live3: "https://www.instagram.com/p/CPr-myEBE_E/?igshid=YmMyMTA2M2Y=",
 };
 
+export const activities = [
+  {
+    name: "학력",
+    text: "전남대학교 전자컴퓨터정보통신공학부, 졸업",
+    text1: "전체 과목 중 90%의 과목을 한국어로 수강",
+    time: "2017. 08 ~ 2022. 08",
+  },
+  {
+    name: "교육",
+    text: " Udemy, Web Development Bootcamp",
+    text1:
+      "HTML5, CSS3 JavaScript, Bootstrap, jQuery, Node.js, MongoDB 등 웹 프로그래밍 개발 교육",
+  },
+  {
+    name: "대학생활",
+    text: "전남대학교 공과대학 학생회, 2019. 09 ~ 2020. 03",
+    text1:
+      "공과대학 대학생을 대상으로 다양한 이벤트 및 행사 운영, 홍보 이벤트 기획 및 운영",
+    time: "2019. 09 ~ 2020. 03",
+  },
+  {
+    name: "수상",
+    text: "전남대학교 인공지능혁신공유대학사업단",
+    text1: "장려상, 2021년 캡스톤 디자인 산학연계 경진 대회",
+    time: "2021. 12",
+  },
+
+  {
+    name: "어학",
+    text: " TOPIK 한국어 능력 시험, 5급 (최대 6급) ",
+    text1: "우즈벡어, 생활영어, 생활러시아어",
+  },
+];
