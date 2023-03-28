@@ -7,7 +7,6 @@
 
 .resume-1 {
     padding: 2% 2%;
-    margin: 0;
     width: 100vw;
     position: fixed;
     background-color: #fff;
@@ -185,4 +184,98 @@
     margin-left: 8px;
     color: #1c892e;
     font-weight: 600;
+}
+
+
+/* Resume Download Button */
+
+.button-wrapper {
+    position: relative;
+    background-color: #cfecd4;
+    padding: 3px 5px;
+    border-radius: 10px;
+}
+
+.text {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 6px;
+}
+
+.down-svg {
+    width: 17px;
+    height: 17px;
+    color: #1c892e;
+}
+
+
+/* Resume Download Button */
+
+@media (max-width: 992px) {
+    .resume-1 {
+        width: 100%;
+        border-bottom: 1px solid #e3d6d6;
+    }
+    .resume-3 {
+        padding: 2% 10%;
+    }
+    .intro-body {
+        margin: 0;
+    }
+    .start {
+        display: none;
+    }
+    .resume-links {
+        text-align: center;
+    }
+    .banner-img {
+        width: 100%;
+        margin: 0;
+        height: 150px;
+        object-fit: cover;
+    }
+    .main-img {
+        width: 100px;
+        height: 110px;
+        top: 14%;
+        left: 10%;
+    }
+    .big-svg {
+        display: none;
+    }
+    .head h5 {
+        font-weight: 500;
+        width: 55%;
+        color: #141520;
+        opacity: 60%;
+        position: relative;
+        margin: 10px 0px 20px 120px;
+        font-size: 14px;
+    }
+    .main-text h4 {
+        position: relative;
+        display: inline-block;
+        font-size: 18px;
+        margin: 50px 0 15px;
+    }
+    .main-text .top {
+        margin-top: 10px;
+    }
+    .intro-header hr {
+        width: 80%;
+        margin-left: 10px;
+        color: #1c892e;
+    }
+    .intro-text h5 {
+        font-size: 17px;
+    }
+    .my-list ul li {
+        opacity: 70%;
+        width: 95%;
+        margin: 12px 0;
+        font-size: 14px;
+    }
+    .list-group {
+        margin-top: 20px;
+    }
 }

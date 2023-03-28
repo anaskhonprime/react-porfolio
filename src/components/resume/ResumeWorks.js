@@ -10,7 +10,7 @@ function ResumeExprerience() {
     <>
       <div className="row intro-body">
         <div className="row intro-header">
-          <div className="col-lg-1">
+          <div className="col-lg-1 big-svg">
             <CodeSVG />
           </div>
           <div className="col-lg-11 main-text">
@@ -193,7 +193,6 @@ function ResumeExprerience() {
           </ul>
         </div>
 
-       
         {/* 활동 내용 */}
       </div>
     </>

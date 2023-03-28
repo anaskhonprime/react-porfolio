@@ -25,6 +25,16 @@
 
 .special-buttons button {
     border: none;
-    background-color: #fff;
-    padding: 0 10px;
+    color: #fff;
+    padding: 20px 20px;
+    border-radius: 100%;
+    background-color: #1c892e;
+}
+
+@media (max-width: 992px) {
+    .svg-icons {
+        width: 18px;
+        height: 18px;
+        color: #1c892e;
+    }
 }

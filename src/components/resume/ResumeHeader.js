@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import { resumeHeader } from "../../data/resume.js";
 import "../../style/resume.css";
 
@@ -8,11 +7,11 @@ function ResumeHeader() {
   return (
     <>
       <div className="row resume-1">
-        <div className="col-lg-8 start">
+        <div className="col-lg-7 start">
           <img src={resumeHeader.profile} className="img-small" alt="" />
           <p>{resumeHeader.header}</p>
         </div>
-        <div className="col-lg-4 links">
+        <div className="col-lg-5 links">
           <ul className="resume-links">
             <Link className="r-link" to="/home">
               <li>Home</li>

@@ -9,11 +9,11 @@ function ResumeSkills() {
   return (
     <div className="row intro-body ">
       <div className="row intro-header">
-        <div className="col-lg-1">
+        <div className="col-lg-1 big-svg">
           <CodeSVG />
         </div>
         <div className="col-lg-11 main-text">
-          <h4>Skills</h4>
+          <h4 className="top">Skills</h4>
         </div>
         <hr />
       </div>
@@ -22,7 +22,7 @@ function ResumeSkills() {
         <h5>Frontend</h5>
       </div>
 
-      <div className="col-lg-6  my-list">
+      <div className="col-lg-6 my-list ">
         <ul>
           {frontend.map((key, a) => (
             <div key={a} className="list">

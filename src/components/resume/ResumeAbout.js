@@ -10,13 +10,13 @@ function ResumeAbout() {
     <>
       <div className="row intro-body">
         <div className="row intro-header">
-          <div className="col-lg-1">
+          <div className="col-lg-1 big-svg">
             <CodeSVG />
           </div>
           <div className="col-lg-11 main-text">
             <h4>About Me</h4>
           </div>
-          <hr />
+          <hr className="line" />
         </div>
         <div className="col-lg-6 intro-text">
           <h5>Introduction</h5>
@@ -32,27 +32,27 @@ function ResumeAbout() {
         </div>
       </div>
       <div className="row intro-body ">
-        <div className="col-lg-6  intro-text">
-          <h5>Contact & Blogs</h5>
+        <div className="col-lg-6 intro-text">
+          <h5 className="list-group">Contact & Blogs</h5>
         </div>
         <div className="col-lg-6 my-list">
           <ul>
             <li className="text-underline">
-              Personal : 만 25세, ENFJ,  비자타입: 구직비자(D-10)
+              Personal : 만 25세, ENFJ, 비자타입: D-10
             </li>
             <li className="text-underline">
               Email : <span> smlife202@gmail.com</span>
             </li>
             <li>
               Github :
-              <a href="/" target="_blank">
-                https://github.com/anaskhonprime
+              <a href="https://github.com/anaskhonprime" target="_blank">
+                github.com/anaskhonprime
               </a>
             </li>
             <li>
               Blogs :
-              <a href="/" target="_blank">
-                https://prmblogs.tistory.com/
+              <a href="https://prmblogs.tistory.com/" target="_blank">
+                prmblogs.tistory.com/
               </a>
             </li>
           </ul>
