@@ -214,10 +214,11 @@
 @media (max-width: 992px) {
     .resume-1 {
         width: 100%;
+        overflow: hidden;
         border-bottom: 1px solid #e3d6d6;
     }
     .resume-3 {
-        padding: 2% 10%;
+        padding: 2% 8%;
     }
     .intro-body {
         margin: 0;
@@ -232,7 +233,12 @@
         width: 100%;
         margin: 0;
         height: 150px;
+        overflow: hidden;
         object-fit: cover;
+    }
+    .intro-header {
+        margin: 10px 0;
+        background-color: #fff;
     }
     .main-img {
         width: 100px;
@@ -255,7 +261,7 @@
     .main-text h4 {
         position: relative;
         display: inline-block;
-        font-size: 18px;
+        font-size: 22px;
         margin: 50px 0 15px;
     }
     .main-text .top {
@@ -277,5 +283,31 @@
     }
     .list-group {
         margin-top: 20px;
+    }
+    .works-time p {
+        display: inline-block;
+        margin: 10px 0px 10px 8px;
+        color: #1c892e;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .activity-container {
+        background-color: #f6f9f6;
+        border-radius: 15px;
+        margin: 12px 0;
+        padding: 2% 3%;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    }
+    .pink-container {
+        background-color: #f9eff9;
+        border-radius: 15px;
+        margin: 12px 0;
+        padding: 2% 3%;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    }
+    .works-intro p {
+        margin: 8px 0 5px 8px;
+        color: #1c892e;
+        font-weight: 600;
     }
 }

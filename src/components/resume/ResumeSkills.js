@@ -13,7 +13,7 @@ function ResumeSkills() {
           <CodeSVG />
         </div>
         <div className="col-lg-11 main-text">
-          <h4 className="top">Skills</h4>
+          <h4>Skills</h4>
         </div>
         <hr />
       </div>

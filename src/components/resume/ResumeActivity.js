@@ -26,90 +26,97 @@ function ResumeActivity() {
 
       {/* 활동 내용 */}
 
-      <div className="col-lg-6  intro-text">
+      <div className="col-lg-6 intro-text">
         <h5>Education</h5>
         <div className="works-time my-list"></div>
       </div>
       <div className="col-lg-6 my-list">
-        <div className="works-intro">
-          <StarSVG />
-          <p>{activities[0].name}</p>
+        <div className="activity-container">
+          <div className="works-intro">
+            <StarSVG />
+            <p>{activities[0].name}</p>
+          </div>
+          <ul>
+            <div className="list">
+              <li>{activities[0].time}</li>
+            </div>
+            <div className="list">
+              <li>{activities[0].text}</li>
+            </div>
+            <div className="list">
+              <li>{activities[0].text1}</li>
+            </div>
+          </ul>
         </div>
-        <ul>
-          <div className="list">
-            <li>{activities[0].time}</li>
+        <div className="activity-container">
+          <div className="works-intro">
+            <StarSVG />
+            <p>{activities[1].name}</p>
           </div>
-          <div className="list">
-            <li>{activities[0].text}</li>
-          </div>
-          <div className="list">
-            <li>{activities[0].text1}</li>
-          </div>
-        </ul>
-
-        <div className="works-intro mt-4">
-          <StarSVG />
-          <p>{activities[1].name}</p>
+          <ul>
+            <div className="list">
+              <li>{activities[1].text}</li>
+            </div>
+            <div className="list">
+              <li>{activities[1].text1}</li>
+            </div>
+          </ul>
         </div>
-        <ul>
-          <div className="list">
-            <li>{activities[1].text}</li>
-          </div>
-          <div className="list">
-            <li>{activities[1].text1}</li>
-          </div>
-        </ul>
       </div>
 
       <div className="col-lg-6 mt-5 intro-text">
         <h5>Activities</h5>
         <div className="works-time my-list"></div>
       </div>
-      <div className="col-lg-6 my-list mt-5">
-        <div className="works-intro">
-          <StarSVG />
-          <p>{activities[2].name}</p>
+      <div className="col-lg-6 my-list">
+        <div className="activity-container">
+          <div className="works-intro">
+            <StarSVG />
+            <p>{activities[2].name}</p>
+          </div>
+          <ul>
+            <div className="list">
+              <li>{activities[2].time}</li>
+            </div>
+            <div className="list">
+              <li>{activities[2].text}</li>
+            </div>
+            <div className="list">
+              <li>{activities[2].text1}</li>
+            </div>
+          </ul>
         </div>
-        <ul>
-          <div className="list">
-            <li>{activities[2].time}</li>
+        <div className="activity-container">
+          <div className="works-intro">
+            <StarSVG />
+            <p>{activities[3].name}</p>
           </div>
-          <div className="list">
-            <li>{activities[2].text}</li>
-          </div>
-          <div className="list">
-            <li>{activities[2].text1}</li>
-          </div>
-        </ul>
-
-        <div className="works-intro mt-4">
-          <StarSVG />
-          <p>{activities[3].name}</p>
+          <ul>
+            <div className="list">
+              <li>{activities[3].time}</li>
+            </div>
+            <div className="list">
+              <li>{activities[3].text}</li>
+            </div>
+            <div className="list">
+              <li>{activities[3].text1}</li>
+            </div>
+          </ul>
         </div>
-        <ul>
-          <div className="list">
-            <li>{activities[3].time}</li>
+        <div className="activity-container">
+          <div className="works-intro">
+            <StarSVG />
+            <p>{activities[4].name}</p>
           </div>
-          <div className="list">
-            <li>{activities[3].text}</li>
-          </div>
-          <div className="list">
-            <li>{activities[3].text1}</li>
-          </div>
-        </ul>
-
-        <div className="works-intro mt-4">
-          <StarSVG />
-          <p>{activities[4].name}</p>
+          <ul>
+            <div className="list">
+              <li>{activities[4].text}</li>
+            </div>
+            <div className="list">
+              <li>{activities[4].text1}</li>
+            </div>
+          </ul>
         </div>
-        <ul>
-          <div className="list">
-            <li>{activities[4].text}</li>
-          </div>
-          <div className="list">
-            <li>{activities[4].text1}</li>
-          </div>
-        </ul>
       </div>
       <div className="my-5"></div>
 

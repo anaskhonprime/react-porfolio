@@ -9,7 +9,7 @@ function ResumeSkills() {
   return (
     <div className="row intro-body">
       <div className="row intro-header">
-        <div className="col-lg-1">
+        <div className="col-lg-1 start ">
           <CodeSVG />
         </div>
         <div className="col-lg-11 main-text">
@@ -17,57 +17,61 @@ function ResumeSkills() {
         </div>
         <hr />
       </div>
-
       {/* 활동 내용 */}
-
-      <div className="col-lg-6  intro-text">
+      <div className="col-lg-6 intro-text">
         <h5>{exp1.name}</h5>
-        <div className="works-time my-list mt-5">
+        <div className="works-time my-list mt-4">
           <ul className="ul-list">
             <li>
               방문 :
               <a href={exp1.live} target="_blank">
-                {exp1.live}
+                anaskhonprime.web.app/
               </a>
             </li>
             <li>
               Github :
               <a href={exp1.code} target="_blank">
-                {exp1.code}
+                github.com/anaskhonprime
               </a>
             </li>
           </ul>
         </div>
       </div>
       <div className="col-lg-6 my-list">
-        <div className="works-intro">
-          <HashSVG />
-          <p>프로젝트 내용</p>
-        </div>
-        <ul>
-          <div className="list">
-            <li>{exp1.content}</li>
+        <div className="activity-container">
+          <div className="works-intro">
+            <HashSVG />
+            <p>프로젝트 내용</p>
           </div>
-        </ul>
-        <div className="works-intro mt-5">
-          <HashSVG />
-          <p>기술스택</p>
+          <ul>
+            <div className="list">
+              <li>{exp1.content}</li>
+            </div>
+          </ul>
         </div>
-        <ul>
-          <div className="list">
-            <li>{exp1.stack}</li>
-            <li>{exp1.stack1}</li>
+        <div className="activity-container">
+          <div className="works-intro">
+            <HashSVG />
+            <p>기술스택</p>
           </div>
-        </ul>
-        <div className="works-intro mt-5">
-          <HashSVG />
-          <p>프로젝트 특징</p>
+          <ul>
+            <div className="list">
+              <li>{exp1.stack}</li>
+              <li>{exp1.stack1}</li>
+            </div>
+          </ul>
         </div>
-        <ul>
-          <div className="list">
-            <li>{exp1.special}</li>
+        <div className="activity-container">
+          <div className="works-intro">
+            <HashSVG />
+            <p>프로젝트 특징</p>
           </div>
-        </ul>
+          <ul>
+            <div className="list">
+              <li>{exp1.special}</li>
+            </div>
+          </ul>
+        </div>
       </div>
 
       <hr className="my-5" />
@@ -76,52 +80,59 @@ function ResumeSkills() {
 
       <div className="col-lg-6  intro-text">
         <h5>{exp2.name}</h5>
-        <div className="works-time my-list mt-5">
+        <div className="works-time my-list mt-4">
           <ul className="ul-list">
             <li>
               방문 :
               <a href={exp2.live} target="_blank">
-                {exp2.live}
+                Vue Portfolio
               </a>
             </li>
             <li>
               Github :
               <a href={exp2.code} target="_blank">
-                {exp2.code}
+                Vuejs-tailwind-portfolio
               </a>
             </li>
           </ul>
         </div>
       </div>
       <div className="col-lg-6 my-list">
-        <div className="works-intro">
-          <HashSVG />
-          <p>프로젝트 내용</p>
-        </div>
-        <ul>
-          <div className="list">
-            <li>{exp2.content}</li>
+        <div className="activity-container">
+          <div className="works-intro">
+            <HashSVG />
+            <p>프로젝트 내용</p>
           </div>
-        </ul>
-        <div className="works-intro mt-5">
-          <HashSVG />
-          <p>기술스택</p>
+          <ul>
+            <div className="list">
+              <li>{exp2.content}</li>
+            </div>
+          </ul>
         </div>
-        <ul>
-          <div className="list">
-            <li>{exp2.stack}</li>
-            <li>{exp2.stack1}</li>
+
+        <div className="activity-container">
+          <div className="works-intro">
+            <HashSVG />
+            <p>기술스택</p>
           </div>
-        </ul>
-        <div className="works-intro mt-5">
-          <HashSVG />
-          <p>프로젝트 특징</p>
+          <ul>
+            <div className="list">
+              <li>{exp2.stack}</li>
+              <li>{exp2.stack1}</li>
+            </div>
+          </ul>
         </div>
-        <ul>
-          <div className="list">
-            <li>{exp2.special}</li>
+        <div className="activity-container">
+          <div className="works-intro">
+            <HashSVG />
+            <p>프로젝트 특징</p>
           </div>
-        </ul>
+          <ul>
+            <div className="list">
+              <li>{exp2.special}</li>
+            </div>
+          </ul>
+        </div>
       </div>
 
       <hr className="my-5" />
@@ -130,61 +141,66 @@ function ResumeSkills() {
 
       <div className="col-lg-6  intro-text">
         <h5>{exp3.name}</h5>
-        <div className="works-time my-list mt-5">
+        <div className="works-time my-list mt-4">
           <ul className="ul-list">
             <li>
               방문 :
               <a href={exp3.live} target="_blank">
-                {exp3.live}
+                reactprime505.web.app/
               </a>
             </li>
             <li>
               Github :
               <a href={exp3.code} target="_blank">
-                {exp3.code}
+                react-eth-mint-dapp
               </a>
             </li>
           </ul>
         </div>
       </div>
       <div className="col-lg-6 my-list">
-        <div className="works-intro">
-          <HashSVG />
-          <p>프로젝트 내용</p>
-        </div>
-        <ul>
-          <div className="list">
-            <li>{exp3.content}</li>
+        <div className="activity-container">
+          <div className="works-intro">
+            <HashSVG />
+            <p>프로젝트 내용</p>
           </div>
-        </ul>
-        <div className="works-intro mt-5">
-          <HashSVG />
-          <p>기술스택</p>
+          <ul>
+            <div className="list">
+              <li>{exp3.content}</li>
+            </div>
+          </ul>
         </div>
-        <ul>
-          <div className="list">
-            <li>{exp3.stack}</li>
-            <li>{exp3.stack1}</li>
+        <div className="activity-container">
+          <div className="works-intro">
+            <HashSVG />
+            <p>기술스택</p>
           </div>
-        </ul>
-        <div className="works-intro mt-5">
-          <HashSVG />
-          <p>프로젝트 특징</p>
+          <ul>
+            <div className="list">
+              <li>{exp3.stack}</li>
+              <li>{exp3.stack1}</li>
+            </div>
+          </ul>
         </div>
-        <ul>
-          <div className="list">
-            <li>{exp3.special}</li>
+        <div className="activity-container">
+          <div className="works-intro ">
+            <HashSVG />
+            <p>프로젝트 특징</p>
           </div>
-        </ul>
+          <ul>
+            <div className="list">
+              <li>{exp3.special}</li>
+            </div>
+          </ul>
+        </div>
       </div>
-
       <hr className="my-5" />
 
       {/* 활동 내용 */}
 
       <div className="col-lg-6  intro-text">
         <h5>{exp4.name}</h5>
-        <div className="works-time my-list mt-5">
+        <div className="works-time my-list mt-4">
           <ul className="ul-list">
             <li>
               포스터 :
@@ -208,26 +224,29 @@ function ResumeSkills() {
         </div>
       </div>
       <div className="col-lg-6 my-list">
-        <div className="works-intro">
-          <HashSVG />
-          <p>프로젝트 내용</p>
-        </div>
-        <ul>
-          <div className="list">
-            <li>{exp4.content}</li>
-            <li>{exp4.stack}</li>
+        <div className="activity-container">
+          <div className="works-intro">
+            <HashSVG />
+            <p>프로젝트 내용</p>
           </div>
-        </ul>
-        
-        <div className="works-intro mt-5">
-          <HashSVG />
-          <p>프로젝트 특징</p>
+          <ul>
+            <div className="list">
+              <li>{exp4.content}</li>
+              <li>{exp4.stack}</li>
+            </div>
+          </ul>
         </div>
-        <ul>
-          <div className="list">
-            <li>{exp4.special}</li>
+        <div className="activity-container">
+          <div className="works-intro mt-5">
+            <HashSVG />
+            <p>프로젝트 특징</p>
           </div>
-        </ul>
+          <ul>
+            <div className="list">
+              <li>{exp4.special}</li>
+            </div>
+          </ul>
+        </div>
       </div>
 
       {/* 활동 내용 */}

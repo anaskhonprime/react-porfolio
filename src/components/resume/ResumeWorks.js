@@ -35,51 +35,57 @@ function ResumeExprerience() {
           </div>
         </div>
         <div className="col-lg-6 my-list">
-          <div className="works-intro">
-            <HashSVG />
-            <p>활동 내용</p>
-          </div>
-          <ul>
-            <div className="list">
-              <li>{work1.experience1}</li>
-              <li>{work1.experience2}</li>
-              <li>{work1.experience3}</li>
+          <div className="activity-container">
+            <div className="works-intro">
+              <HashSVG />
+              <p>활동 내용</p>
             </div>
-          </ul>
-          <div className="works-intro mt-5">
-            <HashSVG />
-            <p>활동 특징</p>
+            <ul>
+              <div className="list">
+                <li>{work1.experience1}</li>
+                <li>{work1.experience2}</li>
+                <li>{work1.experience3}</li>
+              </div>
+            </ul>
           </div>
-          <ul>
-            <div className="list">
-              <li>{work1.point}</li>
-              <li>{work1.point1}</li>
+          <div className="activity-container">
+            <div className="works-intro">
+              <HashSVG />
+              <p>활동 특징</p>
             </div>
-          </ul>
-          <div className="works-intro mt-5">
-            <HashSVG />
-            <p>활동 후기</p>
+            <ul>
+              <div className="list">
+                <li>{work1.point}</li>
+                <li>{work1.point1}</li>
+              </div>
+            </ul>
           </div>
-          <ul>
-            <div className="list">
-              <li>{work1.review}</li>
+          <div className="activity-container">
+            <div className="works-intro ">
+              <HashSVG />
+              <p>활동 후기</p>
             </div>
-          </ul>
-          <div className="works-intro mt-5">
-            <HashSVG />
-            <p>아쉬운점</p>
+            <ul>
+              <div className="list">
+                <li>{work1.review}</li>
+              </div>
+            </ul>
           </div>
-          <ul>
-            <div className="list">
-              <li>{work1.unfortunate}</li>
+          <div className="activity-container">
+            <div className="works-intro">
+              <HashSVG />
+              <p>아쉬운점</p>
             </div>
-          </ul>
+            <ul>
+              <div className="list">
+                <li>{work1.unfortunate}</li>
+              </div>
+            </ul>
+          </div>
         </div>
-
         <hr className="my-5" />
 
         {/* 활동 내용 */}
-
         <div className="col-lg-6 intro-text">
           <h5>{work2.place}</h5>
           <div className="works-time">
@@ -94,49 +100,55 @@ function ResumeExprerience() {
           </div>
         </div>
         <div className="col-lg-6 my-list">
-          <div className="works-intro">
-            <HashSVG />
-            <p>활동 내용</p>
-          </div>
-          <ul>
-            <div className="list">
-              <li>{work2.experience1}</li>
-              <li>{work2.experience2}</li>
-              <li>{work2.experience3}</li>
+          <div className="activity-container">
+            <div className="works-intro">
+              <HashSVG />
+              <p>활동 내용</p>
             </div>
-          </ul>
-          <div className="works-intro mt-5">
-            <HashSVG />
-            <p>활동 특징</p>
+            <ul>
+              <div className="list">
+                <li>{work2.experience1}</li>
+                <li>{work2.experience2}</li>
+                <li>{work2.experience3}</li>
+              </div>
+            </ul>
           </div>
-          <ul>
-            <div className="list">
-              <li>{work2.point}</li>
-              <li>{work2.point1}</li>
+          <div className="activity-container">
+            <div className="works-intro">
+              <HashSVG />
+              <p>활동 특징</p>
             </div>
-          </ul>
-          <div className="works-intro mt-5">
-            <HashSVG />
-            <p>활동 후기</p>
+            <ul>
+              <div className="list">
+                <li>{work2.point}</li>
+                <li>{work2.point1}</li>
+              </div>
+            </ul>
           </div>
-          <ul>
-            <div className="list">
-              <li>{work2.review}</li>
+          <div className="activity-container">
+            <div className="works-intro">
+              <HashSVG />
+              <p>활동 후기</p>
             </div>
-          </ul>
-          <div className="works-intro mt-5">
-            <HashSVG />
-            <p>아쉬운점</p>
+            <ul>
+              <div className="list">
+                <li>{work2.review}</li>
+              </div>
+            </ul>
           </div>
-          <ul>
-            <div className="list">
-              <li>{work2.unfortunate}</li>
+          <div className="activity-container">
+            <div className="works-intro">
+              <HashSVG />
+              <p>아쉬운점</p>
             </div>
-          </ul>
+            <ul>
+              <div className="list">
+                <li>{work2.unfortunate}</li>
+              </div>
+            </ul>
+          </div>
         </div>
-
         <hr className="my-5" />
-
         {/* 활동 내용 */}
         <div className="col-lg-6  intro-text">
           <h5>{work3.place}</h5>
@@ -152,47 +164,54 @@ function ResumeExprerience() {
           </div>
         </div>
         <div className="col-lg-6 my-list">
-          <div className="works-intro">
-            <HashSVG />
-            <p>활동 내용</p>
-          </div>
-          <ul>
-            <div className="list">
-              <li>{work3.experience1}</li>
-              <li>{work3.experience2}</li>
-              <li>{work3.experience3}</li>
+          <div className="activity-container">
+            <div className="works-intro">
+              <HashSVG />
+              <p>활동 내용</p>
             </div>
-          </ul>
-          <div className="works-intro mt-5">
-            <HashSVG />
-            <p>활동 특징</p>
+            <ul>
+              <div className="list">
+                <li>{work3.experience1}</li>
+                <li>{work3.experience2}</li>
+                <li>{work3.experience3}</li>
+              </div>
+            </ul>
           </div>
-          <ul>
-            <div className="list">
-              <li>{work3.point}</li>
-              <li>{work3.point1}</li>
+          <div className="activity-container">
+            <div className="works-intro ">
+              <HashSVG />
+              <p>활동 특징</p>
             </div>
-          </ul>
-          <div className="works-intro mt-5">
-            <HashSVG />
-            <p>활동 후기</p>
+            <ul>
+              <div className="list">
+                <li>{work3.point}</li>
+                <li>{work3.point1}</li>
+              </div>
+            </ul>
           </div>
-          <ul>
-            <div className="list">
-              <li>{work3.review}</li>
+          <div className="activity-container">
+            <div className="works-intro ">
+              <HashSVG />
+              <p>활동 후기</p>
             </div>
-          </ul>
-          <div className="works-intro mt-5">
-            <HashSVG />
-            <p>아쉬운점</p>
+            <ul>
+              <div className="list">
+                <li>{work3.review}</li>
+              </div>
+            </ul>
           </div>
-          <ul>
-            <div className="list">
-              <li>{work3.unfortunate}</li>
+          <div className="activity-container">
+            <div className="works-intro">
+              <HashSVG />
+              <p>아쉬운점</p>
             </div>
-          </ul>
+            <ul>
+              <div className="list">
+                <li>{work3.unfortunate}</li>
+              </div>
+            </ul>
+          </div>
         </div>
-
         {/* 활동 내용 */}
       </div>
     </>
