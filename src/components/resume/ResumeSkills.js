@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
 import { beckend, frontend, tools } from "../../data/resume.js";
 import "../../style/resume.css";
 import { CodeSVG } from "../Svg/SvgIcons.js";
@@ -17,11 +15,9 @@ function ResumeSkills() {
         </div>
         <hr />
       </div>
-
       <div className="col-lg-6 intro-text">
         <h5>Frontend</h5>
       </div>
-
       <div className="col-lg-6 my-list ">
         <ul>
           {frontend.map((key, a) => (
@@ -35,7 +31,6 @@ function ResumeSkills() {
       <div className="col-lg-6 intro-text">
         <h5>Backend</h5>
       </div>
-
       <div className="col-lg-6  my-list">
         <ul>
           {beckend.map((key, a) => (
@@ -45,12 +40,10 @@ function ResumeSkills() {
           ))}
         </ul>
       </div>
-
       <div className="free-space"></div>
       <div className="col-lg-6 intro-text">
         <h5>Tools & Software</h5>
       </div>
-
       <div className="col-lg-6  my-list">
         <ul>
           {tools.map((key, a) => (

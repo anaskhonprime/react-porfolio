@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../views/Navbar";
 import { Link } from "react-router-dom";
-
 import "../style/projects.css";
-
 import { projects, filterButtons } from "../data/projects";
 import { CodeButton, LinkButton } from "../components/Svg/MainButton";
-
 import { Reveal } from "react-awesome-reveal";
 import { fadeInDownShorter } from "../components/Animations/animation";
+
 
 function Projects() {
   const [myProjects, setMyProjects] = useState(null);
@@ -39,7 +37,7 @@ function Projects() {
       <div className="navbar-items">
         <Navbar />
       </div>
-      <div className="row screen-1">
+      <div className="row screen-1 g-0">
         <div className="col-lg-6">
           <h2>My Projects</h2>
         </div>
@@ -60,8 +58,7 @@ function Projects() {
           </div>
         </div>
       </div>
-
-      <div className="row screen-2">
+      <div className="row screen-2 g-0">
         {myProjects &&
           myProjects.map((type, a) => (
             <div key={type.id} className="col-lg-4">

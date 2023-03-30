@@ -1,9 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
 import { Intro } from "../../data/resume.js";
-import "../../style/resume.css";
 import { CodeSVG } from "../Svg/SvgIcons.js";
+
+import "../../style/resume.css";
 
 function ResumeAbout() {
   return (

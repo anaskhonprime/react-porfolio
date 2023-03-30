@@ -1,20 +1,14 @@
 import React from "react";
 
-import "../style/home.css";
-
 import { Link } from "react-router-dom";
-
 import Navbar from "../views/Navbar";
-import Navigator from "../views/Navigator";
-
 import { headerImg } from "../assets/assets";
 import { headerText } from "../data/home";
 import { MainButton, BlogsButton } from "./Svg/MainButton";
-
-
 import { Fade, Reveal } from "react-awesome-reveal";
 import { fadeInDownShorter} from "../components/Animations/animation";
 
+import "../style/home.css";
 
 
 function Home() {
@@ -24,7 +18,7 @@ function Home() {
         <div className="navbar-items">
           <Navbar />
         </div>
-        <div className="row header-items">
+        <div className="row header-items g-0">
           <div className="col-lg-6 header-text">
             <Reveal keyframes={fadeInDownShorter} duration={500} delay={300}>
               <h1 className="typing-demo">{headerText.header}</h1>

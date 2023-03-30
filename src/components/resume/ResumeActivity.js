@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { activities } from "../../data/resume.js";
+import { CodeSVG, StarSVG } from "../Svg/SvgIcons.js";
+
 import "../../style/resume.css";
-import { CodeSVG, HashSVG, TimeSVG, StarSVG } from "../Svg/SvgIcons.js";
 
 const goToTop = () => {
   window.scrollTo({
@@ -23,9 +23,7 @@ function ResumeActivity() {
         </div>
         <hr />
       </div>
-
       {/* 활동 내용 */}
-
       <div className="col-lg-6 intro-text">
         <h5>Education</h5>
         <div className="works-time my-list"></div>
@@ -63,8 +61,7 @@ function ResumeActivity() {
           </ul>
         </div>
       </div>
-
-      <div className="col-lg-6 mt-5 intro-text">
+      <div className="col-lg-6 mt-3 intro-text">
         <h5>Activities</h5>
         <div className="works-time my-list"></div>
       </div>
@@ -72,7 +69,7 @@ function ResumeActivity() {
         <div className="activity-container">
           <div className="works-intro">
             <StarSVG />
-            <p>{activities[2].name}</p>
+            <p className="m-top">{activities[2].name}</p>
           </div>
           <ul>
             <div className="list">
@@ -119,7 +116,6 @@ function ResumeActivity() {
         </div>
       </div>
       <div className="my-5"></div>
-
       <div className="row bottom">
         <div className="special-buttons">
           <button onClick={goToTop}>Top</button>

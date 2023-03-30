@@ -9,7 +9,7 @@ const aboutInfo = {
 };
 
 const skillInfo = {
-   header1: "Education History",
+  header1: "Education History",
   header2: "My Skills & Experiences",
   header3: "Experience",
   intro1:
@@ -68,7 +68,6 @@ const githubInfo = [
   { name: "Repository", value: "12", mark: "B" },
   { name: "Issue", value: "1", mark: "C" },
 ];
-
 
 const personality = [
   {

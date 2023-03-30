@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
-import { Intro, work1, work2, work3 } from "../../data/resume.js";
+import { work1, work2, work3 } from "../../data/resume.js";
 import "../../style/resume.css";
 import { CodeSVG, TimeSVG, StarSVG, HashSVG } from "../Svg/SvgIcons.js";
 
@@ -18,9 +16,7 @@ function ResumeExprerience() {
           </div>
           <hr />
         </div>
-
         {/* 활동 내용 */}
-
         <div className="col-lg-6  intro-text">
           <h5>{work1.place}</h5>
           <div className="works-time">
@@ -84,7 +80,6 @@ function ResumeExprerience() {
           </div>
         </div>
         <hr className="my-5" />
-
         {/* 활동 내용 */}
         <div className="col-lg-6 intro-text">
           <h5>{work2.place}</h5>

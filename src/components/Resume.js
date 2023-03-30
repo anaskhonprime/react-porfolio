@@ -6,8 +6,6 @@ import ResumeSkills from "./resume/ResumeSkills";
 import ResumeWorks from "./resume/ResumeWorks";
 import ResumeExperience from "./resume/ResumeExperience";
 import ResumeActivity from "./resume/ResumeActivity";
-import DownloadButton from "./resume/DownloadButton";
-
 
 import "../style/resume.css";
 import { resumeHeader } from "../data/resume.js";
@@ -16,7 +14,7 @@ function Resume() {
   return (
     <div className="resume-body">
       <ResumeHeader />
-      <div className="row resume-3">
+      <div className="resume-3">
         <div className="resume-content">
           <div className="head">
             <img src={resumeHeader.profile} className="main-img" alt="" />
@@ -26,7 +24,7 @@ function Resume() {
           <ResumeSkills />
           <ResumeWorks />
           <ResumeExperience />
-          <ResumeActivity/>
+          <ResumeActivity />
         </div>
       </div>
     </div>

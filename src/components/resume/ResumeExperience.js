@@ -1,9 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
 import { exp1, exp2, exp3, exp4 } from "../../data/resume.js";
-import "../../style/resume.css";
 import { CodeSVG, HashSVG } from "../Svg/SvgIcons.js";
+
+import "../../style/resume.css";
 
 function ResumeSkills() {
   return (
@@ -73,11 +72,8 @@ function ResumeSkills() {
           </ul>
         </div>
       </div>
-
       <hr className="my-5" />
-
       {/* 활동 내용 */}
-
       <div className="col-lg-6  intro-text">
         <h5>{exp2.name}</h5>
         <div className="works-time my-list mt-4">
@@ -109,7 +105,6 @@ function ResumeSkills() {
             </div>
           </ul>
         </div>
-
         <div className="activity-container">
           <div className="works-intro">
             <HashSVG />
@@ -134,11 +129,8 @@ function ResumeSkills() {
           </ul>
         </div>
       </div>
-
       <hr className="my-5" />
-
       {/* 활동 내용 */}
-
       <div className="col-lg-6  intro-text">
         <h5>{exp3.name}</h5>
         <div className="works-time my-list mt-4">
@@ -195,9 +187,7 @@ function ResumeSkills() {
         </div>
       </div>
       <hr className="my-5" />
-
       {/* 활동 내용 */}
-
       <div className="col-lg-6  intro-text">
         <h5>{exp4.name}</h5>
         <div className="works-time my-list mt-4">
@@ -237,7 +227,7 @@ function ResumeSkills() {
           </ul>
         </div>
         <div className="activity-container">
-          <div className="works-intro mt-5">
+          <div className="works-intro ">
             <HashSVG />
             <p>프로젝트 특징</p>
           </div>
@@ -248,7 +238,6 @@ function ResumeSkills() {
           </ul>
         </div>
       </div>
-
       {/* 활동 내용 */}
     </div>
   );
