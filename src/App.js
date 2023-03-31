@@ -12,7 +12,6 @@ import NotFound from "./components/404";
 import Loader from "./components/Loader/Loading";
 
 function App() {
-
   /* Page Loading Actions */
 
   const [loading, setLoading] = useState(true);
@@ -25,7 +24,6 @@ function App() {
 
   return (
     <>
-      {/*  {loading === false ? ( */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}></Route>
@@ -35,9 +33,6 @@ function App() {
           <Route path="*" element={<NotFound />}></Route>
         </Routes>
       </BrowserRouter>
-      {/*  ) : (
-        <Loader />
-      )} */}
     </>
   );
 }
